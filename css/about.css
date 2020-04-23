@@ -46,6 +46,7 @@ section {
 .social-icons {
   float: right;
   margin-top: 10px;
+  margin-right: 5px;
 }
 
 .bloque-izquierdo {
@@ -53,13 +54,13 @@ section {
   position: absolute;
 }
 
-.title-home {
+.title {
   margin: 30% 0 20px 15px;
 }
-.title-home h1 {
+.title h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 3.8rem;
+  font-size: 3.5rem;
 }
 
 .frase {
@@ -67,9 +68,10 @@ section {
   margin-left: 20px;
 }
 .frase h2 {
+  font-family: "Open Sans", sans-serif;
   margin-top: 50px;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 200;
+  font-size: 1.5rem;
   line-height: 25px;
   color: rgb(120, 189, 167);
   margin-bottom: 10px;

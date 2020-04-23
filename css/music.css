@@ -65,6 +65,7 @@ section {
 .social-icons {
   float: right;
   margin-top: 10px;
+  margin-right: 5px;
 }
 .title h1 {
     font-family: "Raleway", sans-serif;
@@ -75,7 +76,7 @@ section {
   .direct-links h3{
     font-size: 12px;
     margin: 5px;
-    color: rgba(143, 143, 143, 0.9);
+    color: rgba(111, 111, 111, 0.9);
     font-weight: 400;
 
 }
@@ -90,10 +91,13 @@ section {
 
 }
 .album-title h2{
-    font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  
+    font-size: 1rem;
     font-weight: 700;
-    line-height: 14px;
+    line-height: 18px;
     margin: 5px;
+    margin-bottom: 10px;
 
 }
 .card-album{
