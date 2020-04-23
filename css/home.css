@@ -1,0 +1,102 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+section {
+    overflow: hidden;
+  }
+/*HOME*/
+
+.bloque-izquierdo {
+  float: left;
+  position: absolute;
+}
+.menu-vertical {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #666;
+}
+
+.menu-vertical li {
+  list-style: none;
+  line-height: 38px;
+}
+
+.menu-vertical a {
+  display: block;
+  padding: 0px 2px 0 2px;
+  text-decoration: none;
+  color: #666;
+}
+.menu-vertical li a:hover {
+  color: whitesmoke;
+  background-color: rgba(143, 143, 143, 0.9);
+}
+
+.social-icons {
+  margin-top: 10%;
+}
+
+.title-home h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: 5px;
+  color: rgba(43, 43, 43, 0.9);
+  margin: 45% 0 0 25%;
+}
+.title-home h1 {
+  position: absolute;
+  bottom: 10%;
+  left: 10px;
+
+  float: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 3.8rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+}
+.caja {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: #333944;
+  }
+  .box {
+    width: auto;
+    height: 100%;
+    background: #ccc;
+    overflow: hidden;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+  @supports (object-fit: cover) {
+    .box img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+
+
+
+.bloque-derecho {
+  float: right;
+  text-align: right;
+  position: fixed;
+  margin-left: 20%;
+  margin-top: -10%;
+}
+
+
