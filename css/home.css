@@ -58,16 +58,24 @@ section {
   float: left;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 3.8rem;
+  font-size: 3.3rem;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 5px;
+}
+
+.bloque-derecho {
+  float: right;
+  text-align: right;
+  position: fixed;
+  margin-left: 20%;
+  margin-top: -10%;
 }
 .caja {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background: #333944;
+    background: #eeeeee;
   }
   .box {
     width: auto;
@@ -90,13 +98,5 @@ section {
 
 
 
-
-.bloque-derecho {
-  float: right;
-  text-align: right;
-  position: fixed;
-  margin-left: 20%;
-  margin-top: -10%;
-}
 
 
